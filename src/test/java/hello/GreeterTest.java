@@ -16,7 +16,7 @@ public class GreeterTest {
     @Test
     public void testSayHelloParam() {
         Greeter subject = new Greeter();
-        assertEquals("Hello failure D", subject.sayHello("dummy"));
+        assertEquals("Hello failure E", subject.sayHello("dummy"));
     }
 
     @Test
