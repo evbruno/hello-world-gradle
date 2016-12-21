@@ -21,7 +21,7 @@ public class GreeterTest {
 
     @Test
     public void testLongCompute() {
-        sleep(5);
+        sleep(30);
         assertTrue(true);
     }
 
