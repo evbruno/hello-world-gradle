@@ -10,7 +10,7 @@ public class GreeterTest {
     @Test
     public void testSayHello() {
         Greeter subject = new Greeter();
-        assertEquals("hello World!", subject.sayHello());
+        assertEquals("World!", subject.sayHello());
     }
 
     @Test
