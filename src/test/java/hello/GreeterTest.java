@@ -14,6 +14,12 @@ public class GreeterTest {
     }
 
     @Test
+    public void testSayHelloParam() {
+        Greeter subject = new Greeter();
+        assertEquals("Hello dummy!", subject.sayHello("dummy"));
+    }
+
+    @Test
     public void testLongCompute() {
         sleep(5);
         assertTrue(true);
